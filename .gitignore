@@ -1,0 +1,31 @@
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.synctex(busy)
+*.nav
+*.snm
+*.xdv
+*.bak
+
+# Secrets and local environment
+.env
+.env.*
+*.token
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Local assistant context
+CLAUDE.md
+.claude/

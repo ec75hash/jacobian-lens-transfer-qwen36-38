@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Survival of the Fitted: Cross-Checkpoint Transfer of a Jacobian Lens from Qwen3.6-27B to Qwen3.8-27B"
+abstract: >-
+  A Jacobian lens fitted on Qwen3.6-27B is applied without refitting to
+  Qwen3.8-27B and evaluated on latent-entity recovery in two-hop prompts,
+  teacher-forced next-token rank on WikiText-103, and a lens-derived
+  direction ablation. The latent-entity readout survives the version change
+  with a depth-dependent cost; the next-token readout shows a lens-specific
+  cost concentrated near layer 48; the ablation removes the target word from
+  generation on both checkpoints. The lens remains informative across a
+  nearby, architecture-compatible version change without preserving its
+  original calibration.
+type: dataset
+authors:
+  - family-names: Shorthill
+    given-names: "Jeffrey W."
+    affiliation: "Independent researcher"
+    orcid: "https://orcid.org/0009-0004-3954-2752"
+version: "1.1"
+date-released: "2026-08-27"
+doi: "10.5281/zenodo.22133736"
+license: CC-BY-4.0
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22133735"
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.22133736"
+    description: "Version 1.1"
+url: "https://github.com/jeffreywilliamportfolio/jacobian-lens-transfer-qwen36-38"
+repository-code: "https://github.com/jeffreywilliamportfolio/jacobian-lens-transfer-qwen36-38"
+keywords:
+  - interpretability
+  - Jacobian lens
+  - logit lens
+  - model versioning
+  - representation drift
+  - Qwen
+  - transfer
