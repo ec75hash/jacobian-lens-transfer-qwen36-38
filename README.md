@@ -1,3 +1,5 @@
+**Research account:** this copy is published at [ec75hash/jacobian-lens-transfer-qwen36-38](https://github.com/ec75hash/jacobian-lens-transfer-qwen36-38). The [original repository](https://github.com/jeffreywilliamportfolio/jacobian-lens-transfer-qwen36-38) and its history remain available. [Archived paper v1.1](https://zenodo.org/records/22133736) · [Copy provenance](PUBLICATION_PROVENANCE.md).
+
 # Jacobian lens transfer: Qwen3.6-27B to Qwen3.8-27B
 
 Paper source, figures, and evaluation code for the preprint
